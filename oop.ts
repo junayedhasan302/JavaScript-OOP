@@ -3,3 +3,4 @@ const student ={
     ID: 46,
     age: 24
 }
+console.log(student);
