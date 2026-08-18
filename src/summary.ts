@@ -207,64 +207,43 @@ class Rectangle extends Shape {
 // Rectangle object তৈরি
 const rectangle = new Rectangle(4, 5);
 
-
 // Rectangle-এর area বের করা
 console.log(rectangle.area());
 
 // Output:
 // 20
-
-
 // Parent-এর normal method
-rectangle.describe();
 
+rectangle.describe();
 // Output:
 // This is a shape
-
 
 
 // ============================================================
 // 6. USEFUL JAVASCRIPT BUILT-IN METHODS
 // ============================================================
 
-
 // Math.floor()
 // Decimal number নিচের পূর্ণসংখ্যায় নামিয়ে আনে
-
 console.log(Math.floor(4.8));
-
 // Output:
 // 4
-
-
-
 // Math.ceil()
+
 // Decimal number উপরের পূর্ণসংখ্যায় উঠিয়ে দেয়
-
 console.log(Math.ceil(4.2));
-
 // Output:
 // 5
 
-
-
 // Math.random()
 // 0 থেকে 1-এর মধ্যে random number দেয়
-
 console.log(Math.random());
-
-
 // Example output:
 // 0.583742...
 
-
-
 // Date
 // বর্তমান date এবং time তৈরি করে
-
 const d = new Date();
-
 console.log(d);
-
 // Example output:
 // Tue Aug 18 2026 19:00:00 ...
