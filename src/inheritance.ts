@@ -79,3 +79,21 @@ console.log(student.age);
 console.log(student.email);
 // Output:
 // rafi@gmail.com
+
+
+/*
+                 User
+             (Parent Class)
+                  │
+       ┌──────────┼──────────┐
+       │          │          │
+     name        age       email
+    private     private   protected
+                  │
+                  ↓
+               Student
+            (Child Class)
+                  │
+                 fee
+               private
+*/
